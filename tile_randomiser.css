@@ -1,0 +1,37 @@
+div.tile       { float: left; }
+div.tile-small { float: left; width: 30px; height: 30px; }
+
+div.horizontal {
+    width: 60px;
+    height: 30px;
+}
+
+div.vertical {
+    width:  30px;
+    height: 60px;
+}
+
+div.tile-container {
+    width: 810px;
+    float: left;
+}
+
+div.tile-container-small {
+    width: 790px;
+    float: left;
+    margin-top: 30px;
+}
+
+div.pair-container {
+    float: left;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+div.red         { background-color: #660000; }
+div.lightgreen  { background-color: #004000 }
+div.darkgreen   { background-color: #99D699  }
+div.lightblue   { background-color: #4775FF  }
+div.darkblue    { background-color: #000229   }
+div.grey        { background-color: #5C5C8A       }

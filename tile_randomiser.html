@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lets create some tiles!!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="./tile_randomiser.js" ></script>
+    <link rel="stylesheet" type="text/css" href="tile_randomiser.css">
+
+</head>
+<body>
+
+    <h2>Lets create some tiles</h2>
+    <p>Randomise all tiles :
+        <button type="button" onclick="randomise_colour()" >Colour</button>
+        <button type="button" onclick="randomise_orientation()" >Orientation</button>
+    </p>
+
+    <p>Click a tile to change its:
+        <button type="button" onclick="set_click_colour()">Colour</button>
+        <button type="button" onclick="set_click_orientation()">Orientation</button>
+    </p>
+
+    <div class='tile-container'></div>
+    <div class='tile-container-small'></div>
+
+
+</body>
+</html>
